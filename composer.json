@@ -1,0 +1,25 @@
+{
+  "name": "ueef/phigeon",
+  "type": "library",
+  "description": "Phigeon is a simple template builder",
+  "config": {
+    "vendor-dir": "var/vendor"
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ueef\\Phigeon\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ueef\\Phigeon\\Tests\\": "tests"
+    }
+  }
+}
